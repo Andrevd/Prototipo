@@ -16,6 +16,7 @@ import co.edu.sena.dto.Usuario.DTOUsuario;
 public class viewUsuario extends javax.swing.JFrame {
 
     int dni_Usuario = 100;
+    
     String Perfil1 = "";
     String Cedula1 = "";
     String Nombre1 = "";
@@ -156,7 +157,7 @@ public class viewUsuario extends javax.swing.JFrame {
             }
         });
 
-        jLabel10.setIcon(new javax.swing.ImageIcon("C:\\Users\\SENA\\Desktop\\LOGO.png")); // NOI18N
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/co/edu/sena/vista/Usuario/LOGO.png"))); // NOI18N
         jLabel10.setText("jLabel10");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
